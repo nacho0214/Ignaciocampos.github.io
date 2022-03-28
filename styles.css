@@ -31,6 +31,29 @@ ol li a{
 }
 .nav--li-a{
 	color: #3e3b3b;
+	background-image: linear-gradient(currentColor, currentColor);
+   	background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+}
+nav li a:hover{
+	color: #5485b7;
+	transition: 0.5s;
+	background-size: 100% 2px;
+}
+button{
+	font-size: 1.8em;
+	font-weight: 200;
+	border-radius: 0.4rem;
+	border: 0.16rem solid rgba(0,0,0,0.3);
+	color: white;
+	background-color: #858585;
+	font-family: 'Roboto', sans-serif;
+	padding: 0.9rem 2.5rem;
+}
+button:hover{
+	cursor: pointer;
+	background-color: #626262;
 }
 .nav--images{
 	height: 30px;
@@ -45,10 +68,6 @@ ol li a{
 }
 .nav--displayflex{
 	display: flex; 
-}
-nav li a:hover{
-	color: #5485b7;
-	transition: 0.5s;
 }
 .titulos {
 	color: #7e7c7c;
