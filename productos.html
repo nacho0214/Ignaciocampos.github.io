@@ -5,45 +5,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Royal Cap Clothes</title>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-	<nav class="navegador">
-			<ol>
-				<div class="nav--displayflex">
-		 			<li>
-						<a href="https://www.instagram.com/?hl=es-la" target="_blank">
-						<img class="nav--images nav-images-areas marginright1" src="img/insta.png" alt="cuenta de instagram"></a>
-					</li>
-					<li>
-						<a href="https://es-la.facebook.com/" target="_blank"><img class="nav--images nav-images-areas" src="img/face.png" alt="cuenta de facebook"></a>
-					</li>
-				</div>
-				<li>
-					<a class="nav--li-a" href="productos.html">Productos</a>
-				</li>
-					<li>		
-						<a href="index.html"><img class="nav--imagelogo" src="img/logo.png" alt="logo de Royal Cap Clothes"></a>
-					</li>
-				<div class="nav--displayflex">
-					<li class="marginright8">
-						<a class="nav--li-a" href="nosotros.html">Nosotros</a>
-					</li>
-					<li class="marginright8">
-						<a class="nav--li-a" href="contacto.html">Contacto</a>
-					</li>
-					<li>
-						<a href="cuenta.html"><img class="nav--images nav-images-areas marginright1" src="img/cuenta.jpg" alt="crear cuenta"></a>
-					</li>
-				</div>
-			</ol>
-	</nav>
-	</nav>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	        <div class="container-fluid">
+		        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		          	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			            <li>
+			              <a href="https://www.instagram.com/?hl=es-la" target="_blank">
+			              <img class="nav--images nav-images-areas marginright1" src="img/insta.png" alt="cuenta de instagram"></a>
+			            </li>
+			            <li>
+			              <a href="https://es-la.facebook.com/" target="_blank"><img class="nav--images nav-images-areas" src="img/face.png" alt="cuenta de facebook"></a>
+			            </li>
+		          	</ul>
+		        </div>
+		        <a class="navbar-brand" href="index.html"><img class="nav--imagelogo" src="img/logo.png" alt="logo de Royal Cap Clothes"></a></a>
+		        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		          <span class="navbar-toggler-icon"></span>
+		        </button>
+		        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			            <li class="nav-item">
+			              <a class="nav-link active marginright3" id="nav--li-a" aria-current="page" href="productos.html">Productos</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link marginright3" id="nav--li-a" href="nosotros.html">Nosotros</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link marginright3" id="nav--li-a" href="contacto.html">Contacto</a>
+			            </li>
+			            <li>
+			              <a href="cuenta.html"><img class="nav--images nav-images-areas marginright1 margintop1" src="img/cuenta.jpg" alt="crear cuenta"></a>
+			            </li>
+		            </ul>
+		        </div>
+      		</div>
+   		</nav>
 	<header>
 			<img src="img/landingphoto.png" alt="Landing Photo">
 	</header>
 	<section class="div-productos">
 		<section>
-			<h2 class="titulos--productos">Remeras</h2>
+			<h2 class="titulos--productos display-2">Remeras</h2>
 			<a href="productos.html" target="_blank">
 			<img class="section--image section--firstimage" src="img/remera1.jpg" alt="remera negra"></a>
 			<a href="productos.html" target="_blank">
@@ -64,7 +69,7 @@
 	</section>
 	<section class="div-productos">
 		<article>
-			<h2 class="titulos--productos">Buzos</h2>
+			<h2 class="titulos--productos display-2">Buzos</h2>
 			<a href="productos.html" target="_blank">
 			<img class="section--image section--firstimage" src="img/buzo1.jpg" alt="buzo cowboy"></a>
 			<a href="productos.html" target="_blank">
@@ -87,4 +92,6 @@
 		        </article>
 			</section>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>

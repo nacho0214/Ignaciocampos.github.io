@@ -5,45 +5,51 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Royal Cap Clothes</title>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
 	<div class="contenedornosotros">
-		<nav class="navegador navnosotros">
-				<ol>
-					<div class="nav--displayflex">
-			 			<li>
-							<a href="https://www.instagram.com/?hl=es-la" target="_blank">
-							<img class="nav--images nav-images-areas marginright1" src="img/insta.png" alt="cuenta de instagram"></a>
-						</li>
-						<li>
-							<a href="https://es-la.facebook.com/" target="_blank"><img class="nav--images nav-images-areas" src="img/face.png" alt="cuenta de facebook"></a>
-						</li>
-					</div>
-					<li>
-						<a class="nav--li-a" href="productos.html">Productos</a>
-					</li>
-						<li>		
-							<a href="index.html"><img class="nav--imagelogo" src="img/logo.png" alt="logo de Royal Cap Clothes"></a>
-						</li>
-					<div class="nav--displayflex">
-						<li class="marginright8">
-							<a class="nav--li-a" href="nosotros.html">Nosotros</a>
-						</li>
-						<li class="marginright8">
-							<a class="nav--li-a" href="contacto.html">Contacto</a>
-						</li>
-						<li>
-							<a href="cuenta.html"><img class="nav--images nav-images-areas marginright1" src="img/cuenta.jpg" alt="crear cuenta"></a>
-						</li>
-					</div>
-				</ol>
-		</nav>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light navnosotros">
+	        <div class="container-fluid">
+		        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		          	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			            <li>
+			              <a href="https://www.instagram.com/?hl=es-la" target="_blank">
+			              <img class="nav--images nav-images-areas marginright1" src="img/insta.png" alt="cuenta de instagram"></a>
+			            </li>
+			            <li>
+			              <a href="https://es-la.facebook.com/" target="_blank"><img class="nav--images nav-images-areas" src="img/face.png" alt="cuenta de facebook"></a>
+			            </li>
+		          	</ul>
+		        </div>
+		        <a class="navbar-brand" href="index.html"><img class="nav--imagelogo" src="img/logo.png" alt="logo de Royal Cap Clothes"></a></a>
+		        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		          <span class="navbar-toggler-icon"></span>
+		        </button>
+		        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			            <li class="nav-item">
+			              <a class="nav-link active marginright3" id="nav--li-a" aria-current="page" href="productos.html">Productos</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link marginright3" id="nav--li-a" href="nosotros.html">Nosotros</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link marginright3" id="nav--li-a" href="contacto.html">Contacto</a>
+			            </li>
+			            <li>
+			              <a href="cuenta.html"><img class="nav--images nav-images-areas marginright1 margintop1" src="img/cuenta.jpg" alt="crear cuenta"></a>
+			            </li>
+		            </ul>
+		        </div>
+      		</div>
+   		</nav>
 		<div class="imagennosotros ocultardiv">
 			<img class="imgnosotros" src="img/fotogrupal.jpg" alt="quienes somos">
 		</div>
 		<div class="textcenter parrafonosotros asd">
-			<h2 class="titulos--nosotros">¿Quienes somos?</h2>
-			<p>Royal Cap Clothes es una empresa productora de ropa con más de 20 años de existencia que se ha caracterizado por adaptarse a las nuevas tendencias y satisfacer a sus clientes en todo momento como una forma de vida que alcanza mediante la excelente atención y la alta calidad de productos que ofrece a precios increíbles.
+			<h2 class="titulos--nosotros text display-3">¿Quienes somos?</h2>
+			<p class="text-secondary">Royal Cap Clothes es una empresa productora de ropa con más de 20 años de existencia que se ha caracterizado por adaptarse a las nuevas tendencias y satisfacer a sus clientes en todo momento como una forma de vida que alcanza mediante la excelente atención y la alta calidad de productos que ofrece a precios increíbles.
 	        Nos hemos consolidado a través de los años como una marca reconocida gracias a nuestro sistema de producción que asegura el diseño y la creación de prendas para dama cuenten con las mejores herramientas y personal altamente capacitado que brinde a los clientes un disfrute total de sus productos.
 	        Si buscas llenar tu guardarropa de modelos hermosos, cómodos, vanguardistas, distintivos y con mucho estilo, Royal Cap Clothes es la marca ideal para ti. En esta página encontrarás actualizaciones, nuevos modelos, noticias, imágenes, direcciones, aperturas de nuevas sucursales, ofertas y premios por tu participación en los eventos que organicemos.
 	        ¡Ven a conocernos, te esperamos!</p>
@@ -61,4 +67,5 @@
 			</section>
 		</footer>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
