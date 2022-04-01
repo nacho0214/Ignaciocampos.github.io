@@ -52,6 +52,7 @@ ol li a{
 	border-color: #212529;
 	font-family: 'Roboto', sans-serif;
 	padding: 0.5rem 2.5rem;
+	text-decoration: none;
 }
 #button:hover{
 	cursor: pointer;
@@ -312,9 +313,6 @@ footer article p{
 	ol{
 		flex-direction: column;
 	}
-	.nav--displayflex{
-		flex-direction: column;
-	}
 	.navegador{
 		position: static;
 	}
@@ -336,4 +334,10 @@ footer article p{
     appearance: none;
     border-radius: 0.25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.card:hover{
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5)
+}
+#w90{
+	margin:auto;
 }
