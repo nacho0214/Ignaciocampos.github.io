@@ -1,0 +1,63 @@
+//Anidación
+
+header{
+	img{
+		width: $w100;
+		height: 55rem;
+	}
+}
+.titulos {
+	color: $Tituloscolor;
+	font-family: $Mainfont;
+	text-align:center;
+	margin: 40px 5px 40px 5px;
+	border-top: solid 1px $Tituloscolor;
+	padding: 5rem;
+	font-weight: 500;
+}
+.titulos--productos {
+	color: $Tituloscolor;
+	font-family: $Mainfont;
+	text-align:center;
+	margin: 40px 5px 40px 5px;
+	border-top: solid 1px #7e7c7c;
+	padding-top: 5rem;
+	font-weight: 500;
+}
+.titulos--nosotros {
+	color: $Tituloblack;
+	font-family: $Mainfont;
+	text-align:center;
+	margin: 40px 5px 40px 5px;
+	font-weight: 500;
+}
+.card:hover{
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5)
+}
+#w90{
+	margin:auto;
+}
+#button{
+	font-size: $Fontm;
+	font-weight: 200;
+	border-radius: 0.8rem;
+	border: 0.16rem solid rgba(0,0,0,0.3);
+	color: #fff;
+	background-color: $Buttonbgcolor;
+	border-color: #212529;
+	font-family: $Mainfont;
+	padding: 0.5rem 2.5rem;
+	text-decoration: none;
+	&:hover{
+		cursor: pointer;
+		background-color: black;
+		transition: 0.5s;
+	}
+}
+.section-divisor{
+	background-color: $Sectiondiv;
+	width: $w100;
+	height: 8rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}

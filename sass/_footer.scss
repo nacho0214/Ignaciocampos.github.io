@@ -1,0 +1,47 @@
+//Anidación
+
+footer{
+	font-family: Monserrat, Sans-serif;
+	font-size: 2rem;
+	background-color: rgba(0,0,0,0.1);
+	color: $Tituloblack;
+	padding: 3rem;
+	margin-top: 2rem;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	h4{
+		padding: 10px;
+	}
+	article{
+		p{
+			font-family: Monserrat, sans-serif;
+			font-size: 2rem;
+			margin-top: 1rem;
+		}
+	}
+}
+.footer-index{
+	display: flex;
+	@media (max-width: 910px){
+		flex-direction: column;
+	}
+}
+.footer--contacto-display{
+	display: flex;
+}
+.footer--imageslogistica{
+	height: 45px;
+	width: 75px;
+	padding: 5px;
+}
+.footer--imagescontacto{
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+
+}
+iframe{
+	@media(max-width: 910px){
+		width: $w95;
+	}
+}
