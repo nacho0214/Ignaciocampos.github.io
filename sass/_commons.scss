@@ -17,4 +17,23 @@ $w50: 50%;
 $w25: 25%;
 $w23: 23%;
 
+//Mixins
 
+@mixin texto($color,$font-size){
+	color: $color;
+	font-size: $font-size;
+}
+
+//Mapa
+
+$margin:(
+	'uno': 1rem,
+	'dos': 2rem,
+	'tres': 3rem,
+	'cuatro': 4rem,
+	'cinco': 5rem,
+	);
+
+.mb{
+	margin-bottom: map-get($map:$margin,$key:'dos');
+}

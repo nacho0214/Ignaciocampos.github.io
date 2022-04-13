@@ -1,0 +1,7 @@
+Extend en titulos
+Mixin en P 
+Map en commons
+
+Se cambio el title a todos los html
+Se agrego descripcion,keywords,copyright a todos los html
+Se agrego texto alternativo a las imagenes
