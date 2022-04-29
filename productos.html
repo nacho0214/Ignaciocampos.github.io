@@ -9,6 +9,7 @@
 	<meta name="copyright" content="Royal Cap Clothes Copyright 2022">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -38,43 +39,123 @@
 	<header>
 			<img src="img/landingphoto.png" alt="Landing Photo">
 	</header>
-	<section class="div-productos">
-		<section>
-			<h1 class="titulos--productos display-2">Remeras</h1>
-			<a href="productos.html" target="_blank">
-			<img class="section--image section--firstimage" src="img/remera1.jpg" alt="Remera lisa negra"></a>
-			<a href="productos.html" target="_blank">
-			<img class="section--image" src="img/remera2.jpg" alt="Remera lisa blanca"></a>
-			<a href="productos.html" target="_blank">
-			<img class="section--image" src="img/remera3.jpg" alt="Remera lisa rosada"></a>
-			<a href="productos.html" target="_blank">
-			<img class="section--image" src="img/remeracorona.jpg" alt="Remera blanca con logo"></a>
-			<a href="productos.html" target="_blank">
-			<img class="section--image" src="img/remeranasa.jpg" alt="Remera blanca con estampado nasa"></a>
-			<a href="productos.html" target="_blank"></a>
-			<img class="section--image" src="img/remeracosmos.jpg" alt="Remera blanca con estampado del cosmos">
-			<a href="productos.html" target="_blank"></a>
-			<img class="section--image" src="img/remeradrop.jpg" alt="Remera estampado dropkings">
-			<a href="productos.html" target="_blank"></a>
-			<img class="section--image" src="img/remeratrasera.jpg" alt="Remera con estampado trasero">
-		</section>
-	</section>
-	<section class="div-productos">
-		<article>
-			<h2 class="titulos--productos display-2">Buzos</h2>
-			<a href="productos.html" target="_blank">
-			<img class="section--image section--firstimage" src="img/buzo1.jpg" alt="Buzo blanco con estampado cowboy"></a>
-			<a href="productos.html" target="_blank">
-			<img class="section--image" src="img/buzosimple.jpg" alt="Buzo liso negro"></a>
-			<a href="productos.html" target="_blank">
-			<img class="section--image" src="img/buzoapache.jpg" alt="Buzo gris con estampado apache"></a>
-			<a href="productos.html" target="_blank"></a>
-			<img class="section--image" src="img/buzoover.jpg" alt="Buzo oversize">
-		</article>
-	</section>
-	</section>
-		<section class="section-divisor">
-	</section>
+	<main class="contenedor">
+		<h1 class="titulos--productos display-2">Remeras</h1>
+		<div class="carousel">
+	            <div class="carousel__contenedor row">
+	                <button aria-label="Anterior" class="carousel__anterior">
+	                  <i class="fas fa-chevron-left"></i>
+	                </button>
+	                <div class="carousel__lista">
+	                  <div id="m2 w2" class="card col-md-6 col-lg-3 carousel__elemento">
+	                    <img src="img\remera1.jpg" class="card-img-top" alt="Remera lisa negra oversize">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                      <h5 class="card-title h2">Remera Clasica Negra</h5>
+	                      <p class="card-text h4 mb-3">$3500</p>
+	                      <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                  </div>
+	                  <div id="m2 w2" class="card col-md-6 col-lg-3 carousel__elemento">
+	                    <img src="img\remera2.jpg" class="card-img-top" alt="Remera lisa blanca oversize">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                      <h5 class="card-title h2">Remera Clasica Blanca</h5>
+	                      <p class="card-text h4 mb-3">$3500</p>
+	                      <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                  </div>
+	                  <div id="m2 w2" class="card col-md-6 col-lg-3 carousel__elemento">
+	                    <img src="img\remera3.jpg" class="card-img-top" alt="Remera lisa rosada oversize">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                      <h5 class="card-title h2">Remera Clasica Rosada</h5>
+	                      <p class="card-text h4 mb-3">$3500</p>
+	                      <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                  </div>
+	                  <div id="m2 w2" class="card col-md-6 col-lg-3 carousel__elemento">
+	                    <img src="img\remeracorona.jpg" class="card-img-top" alt="Remera blanca con logo">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                      <h5 class="card-title h2">Remera Corona</h5>
+	                      <p class="card-text h4 mb-3">$3500</p>
+	                      <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                  </div>
+	                  <div id="m2 w2" class="card col-md-6 col-lg-3 carousel__elemento">
+	                    <img src="img\remeranasa.jpg" class="card-img-top" alt="Remera lisa negra oversize">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                      <h5 class="card-title h2">Remera Nasa</h5>
+	                      <p class="card-text h4 mb-3">$3500</p>
+	                      <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                  </div>
+	                  <div id="m2 w2" class="card col-md-6 col-lg-3 carousel__elemento">
+	                    <img src="img\remeracosmos.jpg" class="card-img-top" alt="Remera blanca con estampado de nasa">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                      <h5 class="card-title h2">Remera Cosmos</h5>
+	                      <p class="card-text h4 mb-3">$3500</p>
+	                      <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                  </div>
+	                  <div id="m2 w2" class="card col-md-6 col-lg-3 carousel__elemento">
+	                    <img src="img\remeradrop.jpg" class="card-img-top" alt="Remera drop negra">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                      <h5 class="card-title h2">Remera Drop</h5>
+	                      <p class="card-text h4 mb-3">$3500</p>
+	                      <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                  </div>
+	                  <div id="m2 w2" class="card col-md-6 col-lg-3 carousel__elemento">
+	                    <img src="img\remeratrasera.jpg" class="card-img-top" alt="Remera estampado trasero">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                      <h5 class="card-title h2">Remera Negra</h5>
+	                      <p class="card-text h4 mb-3">$3500</p>
+	                      <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                  </div>
+	            </div>
+	                <button aria-label="Siguiente" class="carousel__siguiente">
+	                  <i class="fas fa-chevron-right"></i>
+	                </button>
+	          </div>
+
+	          <div role="tablist" class="carousel__indicadores"></div>
+	        </div>
+	        <h2 class="titulos--productos display-2">Buzos</h2>
+	        <div class="displayf container-fluid row">
+	                <div id="m2 w2" class="card col-md-6 col-lg-3">
+	            	    <img src="img\buzo1.jpg" class="card-img-top" alt="Buzo blanco con estampado">
+	                    <div class="card-body border-top border-3 border-secondary">
+		                    <h5 class="card-title h2">Remera Cowboy</h5>
+		                    <p class="card-text h4 mb-3">$8500</p>
+		                    <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                </div>
+	                <div id="m2 w2" class="card col-md-6 col-lg-3">
+	                    <img src="img\buzosimple.jpg" class="card-img-top" alt="Buzo liso negro">
+	                    <div class="card-body border-top border-3 border-secondary">
+		                    <h5 class="card-title h2">Remera liso Negro</h5>
+		                    <p class="card-text h4 mb-3">$6500</p>
+		                    <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                </div>
+	                <div id="m2 w2" class="card col-md-6 col-lg-3">
+	                    <img src="img\buzoapache.jpg" class="card-img-top" alt="Buzo gris con estampado apache">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                        <h5 class="card-title h2">Remera Apache</h5>
+	                        <p class="card-text h4 mb-3">$7500</p>
+	                        <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                </div>
+	                <div id="m2 w2" class="card col-md-6 col-lg-3">
+	                    <img src="img\buzoover.jpg" class="card-img-top" alt="Buzo negro con logo">
+	                    <div class="card-body border-top border-3 border-secondary">
+	                        <h5 class="card-title h2">Buzo Over</h5>
+	                        <p class="card-text h4 mb-3">$6500</p>
+	                        <a href="404.html" id="button" class="mt-5">Comprar</a>
+	                    </div>
+	                </div>
+	        </div>
+	</main>
+			<section class="section-divisor"></section>
 	<footer class="footer-index footerindex">
 			<div>
 				<section>
@@ -124,5 +205,7 @@
 			</div>
 		</footer>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
